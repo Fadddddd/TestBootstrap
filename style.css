@@ -1,3 +1,10 @@
-* {
-  background-color: bisque;
+.container_gauche {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.container_droite {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

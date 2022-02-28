@@ -9,31 +9,30 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.cssgit ">
+        <link rel="stylesheet" href="style.css">
     <title>CV modèle</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light my-5">
        
         <div class="container">
-            <div class="row gy-1 py-4 col-4">
-                <img src="./assets/woman.jpg" alt="photo d'une personne" width="100%" height="100%"/>
+            <div class="row gy-1 py-4 col-4"> <!-- py est la marge en haut, gy est la marge à droit my cest la marge dans le sens y -->
+                <img src="./assets/woman.jpg" alt="photo d'une personne" w-100 height="100%"/>
             </div>
             <div class="col-8">
-                <div class="d-flex flex-row-reverse flex-fill bd-highlight">
+                <div class="d-flex justify-content-center bd-highlight"> <!-- d = display bd cest border? -->
                     <h1>Nom Prénom</h1>
                 </div>
             </div>
             </div>
-            </div>
-          
-       
+        </div>
                     </div>
                 </div>
                 </div>
             </nav>
-    <section class ="container_gauche">
-        <div class="competences">
+    <section class ="p-4 bd-highlight container_gauche fw-light">
+        
+        <div class="competences fw-bold">
             <h2>Compétences</h2>
             <p>Blablabla</p>
         </div>
@@ -43,26 +42,20 @@
             <p>blabalbla</p>
             <p>blablabla</p>
         </div>
-    </section>
-
-    <section class="container_droite">
+        </div>
+    <div class="p-4 bd-highlight d-flex flex-row-reverse bd-highlight" id="container_droite">
         <div class="moitiehaute">
-            <h2>Emploi</h2>
-            <div class="dates">
-                <p>21.21.21</p>
-            </div>
-            <div class="emploi">
-                <p>Manager d'une entreprise de litières</p>
-            </div>
+            <h2>expériences</h2>
+            <p>kdjsqhfugezhqiufhqekjhfkjqdsh</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro obcaecati inventore labore soluta exercitationem quos adipisci neque enim repellat sint tempore sapiente eveniet, quas est eligendi error amet. Cumque, dolore!
+            Pariatur quis accusantium fugit. Sunt, debitis esse dolorem nesciunt omnis veniam dolore, laboriosam recusandae asperiores qui optio. Aperiam doloremque in, nam corrupti libero repellendus quisquam incidunt! Deserunt dicta facilis officiis.</p>
         </div>
-        <div class="moitiebasse">
-            <div class="dates">
-                <p>21.21.21</p>
-            </div>
+    </div>
+        <div class="p-4 bd-highlight d-flex moitiebasse">
             <div class="formation">
-                <p>blablablabla</p>
+                <h2>formation</h2>
+                <p>lorem*4</p>
             </div>
-        </div>
     </section>
 </body>
 </html>
