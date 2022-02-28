@@ -3,13 +3,12 @@
 }
 
 h2 {
-  justify-content: center;
   align-items: center;
-  margin-top: 5px;
-  margin-bottom: 40px;
+  padding-left: 40%;
 }
 
 h3 {
+  padding-left: 40%;
   margin: auto;
   margin-right: 50px;
 }
